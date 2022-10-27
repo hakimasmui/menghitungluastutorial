@@ -11,12 +11,14 @@
         android:id="@+id/edtPanjang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtLebar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="number"
         app:layout_constraintTop_toBottomOf="@id/edtPanjang" />
 
     <Button
